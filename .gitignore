@@ -25,4 +25,4 @@ pnpm-debug.log*
 !.env.example
 
 # Raw data
-data/
+/data/

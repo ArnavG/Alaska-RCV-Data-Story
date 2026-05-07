@@ -1,0 +1,414 @@
+{
+  "contest": {
+    "id": 5,
+    "name": "Governor / Lieutenant Governor",
+    "numRanks": 5,
+    "colorSeed": 2
+  },
+  "ballotCount": 264706,
+  "averageRankingDepth": 2.1261550550421977,
+  "candidates": [
+    {
+      "id": 267,
+      "name": "Dunleavy/Dahlstrom",
+      "type": "Regular",
+      "party": "Registered Republican",
+      "color": "#4f46e5"
+    },
+    {
+      "id": 268,
+      "name": "Gara/Cook",
+      "type": "Regular",
+      "party": "Registered Democrat",
+      "color": "#0f766e"
+    },
+    {
+      "id": 269,
+      "name": "Pierce/Grunwald",
+      "type": "Regular",
+      "party": "Registered Republican",
+      "color": "#f97316"
+    },
+    {
+      "id": 270,
+      "name": "Walker/Drygas",
+      "type": "Regular",
+      "party": "Nonpartisan",
+      "color": "#dc2626"
+    },
+    {
+      "id": 235,
+      "name": "Write-in",
+      "type": "WriteIn",
+      "party": "Unknown / write-in",
+      "color": "#7c3aed"
+    }
+  ],
+  "firstChoiceTotals": [
+    {
+      "candidateId": 267,
+      "count": 132789,
+      "name": "Dunleavy/Dahlstrom",
+      "color": "#4f46e5"
+    },
+    {
+      "candidateId": 268,
+      "count": 64078,
+      "name": "Gara/Cook",
+      "color": "#0f766e"
+    },
+    {
+      "candidateId": 270,
+      "count": 54945,
+      "name": "Walker/Drygas",
+      "color": "#dc2626"
+    },
+    {
+      "candidateId": 269,
+      "count": 12108,
+      "name": "Pierce/Grunwald",
+      "color": "#f97316"
+    },
+    {
+      "candidateId": 235,
+      "count": 786,
+      "name": "Write-in",
+      "color": "#7c3aed"
+    }
+  ],
+  "rankingDepthDistribution": [
+    {
+      "depth": 1,
+      "count": 87238,
+      "share": 0.3295656313041639
+    },
+    {
+      "depth": 2,
+      "count": 107325,
+      "share": 0.4054498198000801
+    },
+    {
+      "depth": 3,
+      "count": 21389,
+      "share": 0.08080285297650978
+    },
+    {
+      "depth": 4,
+      "count": 47019,
+      "share": 0.17762725438788693
+    },
+    {
+      "depth": 5,
+      "count": 1735,
+      "share": 0.00655444153135932
+    }
+  ],
+  "rcv": {
+    "winnerCandidateId": 267,
+    "rounds": [
+      {
+        "round": 1,
+        "activeBallots": 264706,
+        "exhausted": 0,
+        "winnerCandidateId": 267,
+        "eliminatedCandidateId": null,
+        "tallies": [
+          {
+            "candidateId": 267,
+            "name": "Dunleavy/Dahlstrom",
+            "color": "#4f46e5",
+            "votes": 132789,
+            "eliminated": false
+          },
+          {
+            "candidateId": 268,
+            "name": "Gara/Cook",
+            "color": "#0f766e",
+            "votes": 64078,
+            "eliminated": false
+          },
+          {
+            "candidateId": 270,
+            "name": "Walker/Drygas",
+            "color": "#dc2626",
+            "votes": 54945,
+            "eliminated": false
+          },
+          {
+            "candidateId": 269,
+            "name": "Pierce/Grunwald",
+            "color": "#f97316",
+            "votes": 12108,
+            "eliminated": false
+          },
+          {
+            "candidateId": 235,
+            "name": "Write-in",
+            "color": "#7c3aed",
+            "votes": 786,
+            "eliminated": false
+          }
+        ]
+      }
+    ],
+    "transferFlows": []
+  },
+  "pairwise": {
+    "candidates": [
+      {
+        "id": 267,
+        "name": "Dunleavy/Dahlstrom",
+        "type": "Regular",
+        "party": "Registered Republican",
+        "color": "#4f46e5"
+      },
+      {
+        "id": 268,
+        "name": "Gara/Cook",
+        "type": "Regular",
+        "party": "Registered Democrat",
+        "color": "#0f766e"
+      },
+      {
+        "id": 269,
+        "name": "Pierce/Grunwald",
+        "type": "Regular",
+        "party": "Registered Republican",
+        "color": "#f97316"
+      },
+      {
+        "id": 270,
+        "name": "Walker/Drygas",
+        "type": "Regular",
+        "party": "Nonpartisan",
+        "color": "#dc2626"
+      },
+      {
+        "id": 235,
+        "name": "Write-in",
+        "type": "WriteIn",
+        "party": "Unknown / write-in",
+        "color": "#7c3aed"
+      }
+    ],
+    "matrix": [
+      [
+        {
+          "rowCandidateId": 267,
+          "colCandidateId": 267,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        },
+        {
+          "rowCandidateId": 267,
+          "colCandidateId": 268,
+          "rowVotes": 148222,
+          "colVotes": 99926,
+          "considered": 248148,
+          "margin": 48296
+        },
+        {
+          "rowCandidateId": 267,
+          "colCandidateId": 269,
+          "rowVotes": 154430,
+          "colVotes": 32905,
+          "considered": 187335,
+          "margin": 121525
+        },
+        {
+          "rowCandidateId": 267,
+          "colCandidateId": 270,
+          "rowVotes": 145033,
+          "colVotes": 101182,
+          "considered": 246215,
+          "margin": 43851
+        },
+        {
+          "rowCandidateId": 267,
+          "colCandidateId": 235,
+          "rowVotes": 176673,
+          "colVotes": 2648,
+          "considered": 179321,
+          "margin": 174025
+        }
+      ],
+      [
+        {
+          "rowCandidateId": 268,
+          "colCandidateId": 267,
+          "rowVotes": 99926,
+          "colVotes": 148222,
+          "considered": 248148,
+          "margin": -48296
+        },
+        {
+          "rowCandidateId": 268,
+          "colCandidateId": 268,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        },
+        {
+          "rowCandidateId": 268,
+          "colCandidateId": 269,
+          "rowVotes": 109245,
+          "colVotes": 78135,
+          "considered": 187380,
+          "margin": 31110
+        },
+        {
+          "rowCandidateId": 268,
+          "colCandidateId": 270,
+          "rowVotes": 77350,
+          "colVotes": 79485,
+          "considered": 156835,
+          "margin": -2135
+        },
+        {
+          "rowCandidateId": 268,
+          "colCandidateId": 235,
+          "rowVotes": 129055,
+          "colVotes": 3204,
+          "considered": 132259,
+          "margin": 125851
+        }
+      ],
+      [
+        {
+          "rowCandidateId": 269,
+          "colCandidateId": 267,
+          "rowVotes": 32905,
+          "colVotes": 154430,
+          "considered": 187335,
+          "margin": -121525
+        },
+        {
+          "rowCandidateId": 269,
+          "colCandidateId": 268,
+          "rowVotes": 78135,
+          "colVotes": 109245,
+          "considered": 187380,
+          "margin": -31110
+        },
+        {
+          "rowCandidateId": 269,
+          "colCandidateId": 269,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        },
+        {
+          "rowCandidateId": 269,
+          "colCandidateId": 270,
+          "rowVotes": 75704,
+          "colVotes": 113149,
+          "considered": 188853,
+          "margin": -37445
+        },
+        {
+          "rowCandidateId": 269,
+          "colCandidateId": 235,
+          "rowVotes": 111645,
+          "colVotes": 3076,
+          "considered": 114721,
+          "margin": 108569
+        }
+      ],
+      [
+        {
+          "rowCandidateId": 270,
+          "colCandidateId": 267,
+          "rowVotes": 101182,
+          "colVotes": 145033,
+          "considered": 246215,
+          "margin": -43851
+        },
+        {
+          "rowCandidateId": 270,
+          "colCandidateId": 268,
+          "rowVotes": 79485,
+          "colVotes": 77350,
+          "considered": 156835,
+          "margin": 2135
+        },
+        {
+          "rowCandidateId": 270,
+          "colCandidateId": 269,
+          "rowVotes": 113149,
+          "colVotes": 75704,
+          "considered": 188853,
+          "margin": 37445
+        },
+        {
+          "rowCandidateId": 270,
+          "colCandidateId": 270,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        },
+        {
+          "rowCandidateId": 270,
+          "colCandidateId": 235,
+          "rowVotes": 136006,
+          "colVotes": 3195,
+          "considered": 139201,
+          "margin": 132811
+        }
+      ],
+      [
+        {
+          "rowCandidateId": 235,
+          "colCandidateId": 267,
+          "rowVotes": 2648,
+          "colVotes": 176673,
+          "considered": 179321,
+          "margin": -174025
+        },
+        {
+          "rowCandidateId": 235,
+          "colCandidateId": 268,
+          "rowVotes": 3204,
+          "colVotes": 129055,
+          "considered": 132259,
+          "margin": -125851
+        },
+        {
+          "rowCandidateId": 235,
+          "colCandidateId": 269,
+          "rowVotes": 3076,
+          "colVotes": 111645,
+          "considered": 114721,
+          "margin": -108569
+        },
+        {
+          "rowCandidateId": 235,
+          "colCandidateId": 270,
+          "rowVotes": 3195,
+          "colVotes": 136006,
+          "considered": 139201,
+          "margin": -132811
+        },
+        {
+          "rowCandidateId": 235,
+          "colCandidateId": 235,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        }
+      ]
+    ],
+    "condorcetWinnerId": 267
+  },
+  "alternativeWinners": {
+    "pluralityWinnerId": 267,
+    "rcvWinnerId": 267,
+    "condorcetWinnerId": 267,
+    "bordaWinnerId": 267
+  }
+}

@@ -1,0 +1,589 @@
+{
+  "contest": {
+    "id": 4,
+    "name": "U.S. Representative",
+    "numRanks": 5,
+    "colorSeed": 1
+  },
+  "ballotCount": 265338,
+  "averageRankingDepth": 2.1965606132555457,
+  "candidates": [
+    {
+      "id": 263,
+      "name": "Begich, Nick",
+      "type": "Regular",
+      "party": "Registered Republican",
+      "color": "#4f46e5"
+    },
+    {
+      "id": 279,
+      "name": "Bye, Chris",
+      "type": "Regular",
+      "party": "Registered Libertarian",
+      "color": "#0f766e"
+    },
+    {
+      "id": 264,
+      "name": "Palin, Sarah",
+      "type": "Regular",
+      "party": "Registered Republican",
+      "color": "#f97316"
+    },
+    {
+      "id": 265,
+      "name": "Peltola, Mary S.",
+      "type": "Regular",
+      "party": "Registered Democrat",
+      "color": "#dc2626"
+    },
+    {
+      "id": 215,
+      "name": "Write-in",
+      "type": "WriteIn",
+      "party": "Unknown / write-in",
+      "color": "#7c3aed"
+    }
+  ],
+  "firstChoiceTotals": [
+    {
+      "candidateId": 265,
+      "count": 128722,
+      "name": "Peltola, Mary S.",
+      "color": "#dc2626"
+    },
+    {
+      "candidateId": 264,
+      "count": 68266,
+      "name": "Palin, Sarah",
+      "color": "#f97316"
+    },
+    {
+      "candidateId": 263,
+      "count": 62304,
+      "name": "Begich, Nick",
+      "color": "#4f46e5"
+    },
+    {
+      "candidateId": 279,
+      "count": 4935,
+      "name": "Bye, Chris",
+      "color": "#0f766e"
+    },
+    {
+      "candidateId": 215,
+      "count": 1111,
+      "name": "Write-in",
+      "color": "#7c3aed"
+    }
+  ],
+  "rankingDepthDistribution": [
+    {
+      "depth": 1,
+      "count": 87886,
+      "share": 0.33122281768913614
+    },
+    {
+      "depth": 2,
+      "count": 91229,
+      "share": 0.34382184232940627
+    },
+    {
+      "depth": 3,
+      "count": 34942,
+      "share": 0.13168863864203392
+    },
+    {
+      "depth": 4,
+      "count": 48744,
+      "share": 0.1837053117156231
+    },
+    {
+      "depth": 5,
+      "count": 2537,
+      "share": 0.009561389623800586
+    }
+  ],
+  "rcv": {
+    "winnerCandidateId": 265,
+    "rounds": [
+      {
+        "round": 1,
+        "activeBallots": 265338,
+        "exhausted": 0,
+        "winnerCandidateId": null,
+        "eliminatedCandidateId": 215,
+        "tallies": [
+          {
+            "candidateId": 265,
+            "name": "Peltola, Mary S.",
+            "color": "#dc2626",
+            "votes": 128722,
+            "eliminated": false
+          },
+          {
+            "candidateId": 264,
+            "name": "Palin, Sarah",
+            "color": "#f97316",
+            "votes": 68266,
+            "eliminated": false
+          },
+          {
+            "candidateId": 263,
+            "name": "Begich, Nick",
+            "color": "#4f46e5",
+            "votes": 62304,
+            "eliminated": false
+          },
+          {
+            "candidateId": 279,
+            "name": "Bye, Chris",
+            "color": "#0f766e",
+            "votes": 4935,
+            "eliminated": false
+          },
+          {
+            "candidateId": 215,
+            "name": "Write-in",
+            "color": "#7c3aed",
+            "votes": 1111,
+            "eliminated": false
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "activeBallots": 264910,
+        "exhausted": 428,
+        "winnerCandidateId": null,
+        "eliminatedCandidateId": 279,
+        "tallies": [
+          {
+            "candidateId": 265,
+            "name": "Peltola, Mary S.",
+            "color": "#dc2626",
+            "votes": 128823,
+            "eliminated": false
+          },
+          {
+            "candidateId": 264,
+            "name": "Palin, Sarah",
+            "color": "#f97316",
+            "votes": 68393,
+            "eliminated": false
+          },
+          {
+            "candidateId": 263,
+            "name": "Begich, Nick",
+            "color": "#4f46e5",
+            "votes": 62615,
+            "eliminated": false
+          },
+          {
+            "candidateId": 279,
+            "name": "Bye, Chris",
+            "color": "#0f766e",
+            "votes": 5079,
+            "eliminated": false
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "activeBallots": 263978,
+        "exhausted": 1360,
+        "winnerCandidateId": null,
+        "eliminatedCandidateId": 263,
+        "tallies": [
+          {
+            "candidateId": 265,
+            "name": "Peltola, Mary S.",
+            "color": "#dc2626",
+            "votes": 129863,
+            "eliminated": false
+          },
+          {
+            "candidateId": 264,
+            "name": "Palin, Sarah",
+            "color": "#f97316",
+            "votes": 69487,
+            "eliminated": false
+          },
+          {
+            "candidateId": 263,
+            "name": "Begich, Nick",
+            "color": "#4f46e5",
+            "votes": 64628,
+            "eliminated": false
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "activeBallots": 250051,
+        "exhausted": 15287,
+        "winnerCandidateId": 265,
+        "eliminatedCandidateId": null,
+        "tallies": [
+          {
+            "candidateId": 265,
+            "name": "Peltola, Mary S.",
+            "color": "#dc2626",
+            "votes": 137380,
+            "eliminated": false
+          },
+          {
+            "candidateId": 264,
+            "name": "Palin, Sarah",
+            "color": "#f97316",
+            "votes": 112671,
+            "eliminated": false
+          }
+        ]
+      }
+    ],
+    "transferFlows": [
+      {
+        "fromRound": 1,
+        "toRound": 2,
+        "fromCandidateId": 215,
+        "toCandidateId": "exhausted",
+        "count": 428
+      },
+      {
+        "fromRound": 1,
+        "toRound": 2,
+        "fromCandidateId": 215,
+        "toCandidateId": 263,
+        "count": 311
+      },
+      {
+        "fromRound": 1,
+        "toRound": 2,
+        "fromCandidateId": 215,
+        "toCandidateId": 279,
+        "count": 144
+      },
+      {
+        "fromRound": 1,
+        "toRound": 2,
+        "fromCandidateId": 215,
+        "toCandidateId": 264,
+        "count": 127
+      },
+      {
+        "fromRound": 1,
+        "toRound": 2,
+        "fromCandidateId": 215,
+        "toCandidateId": 265,
+        "count": 101
+      },
+      {
+        "fromRound": 2,
+        "toRound": 3,
+        "fromCandidateId": 279,
+        "toCandidateId": 263,
+        "count": 2013
+      },
+      {
+        "fromRound": 2,
+        "toRound": 3,
+        "fromCandidateId": 279,
+        "toCandidateId": 264,
+        "count": 1094
+      },
+      {
+        "fromRound": 2,
+        "toRound": 3,
+        "fromCandidateId": 279,
+        "toCandidateId": 265,
+        "count": 1040
+      },
+      {
+        "fromRound": 2,
+        "toRound": 3,
+        "fromCandidateId": 279,
+        "toCandidateId": "exhausted",
+        "count": 932
+      },
+      {
+        "fromRound": 3,
+        "toRound": 4,
+        "fromCandidateId": 263,
+        "toCandidateId": 264,
+        "count": 43184
+      },
+      {
+        "fromRound": 3,
+        "toRound": 4,
+        "fromCandidateId": 263,
+        "toCandidateId": "exhausted",
+        "count": 13927
+      },
+      {
+        "fromRound": 3,
+        "toRound": 4,
+        "fromCandidateId": 263,
+        "toCandidateId": 265,
+        "count": 7517
+      }
+    ]
+  },
+  "pairwise": {
+    "candidates": [
+      {
+        "id": 263,
+        "name": "Begich, Nick",
+        "type": "Regular",
+        "party": "Registered Republican",
+        "color": "#4f46e5"
+      },
+      {
+        "id": 279,
+        "name": "Bye, Chris",
+        "type": "Regular",
+        "party": "Registered Libertarian",
+        "color": "#0f766e"
+      },
+      {
+        "id": 264,
+        "name": "Palin, Sarah",
+        "type": "Regular",
+        "party": "Registered Republican",
+        "color": "#f97316"
+      },
+      {
+        "id": 265,
+        "name": "Peltola, Mary S.",
+        "type": "Regular",
+        "party": "Registered Democrat",
+        "color": "#dc2626"
+      },
+      {
+        "id": 215,
+        "name": "Write-in",
+        "type": "WriteIn",
+        "party": "Unknown / write-in",
+        "color": "#7c3aed"
+      }
+    ],
+    "matrix": [
+      [
+        {
+          "rowCandidateId": 263,
+          "colCandidateId": 263,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        },
+        {
+          "rowCandidateId": 263,
+          "colCandidateId": 279,
+          "rowVotes": 143129,
+          "colVotes": 43385,
+          "considered": 186514,
+          "margin": 99744
+        },
+        {
+          "rowCandidateId": 263,
+          "colCandidateId": 264,
+          "rowVotes": 119788,
+          "colVotes": 78184,
+          "considered": 197972,
+          "margin": 41604
+        },
+        {
+          "rowCandidateId": 263,
+          "colCandidateId": 265,
+          "rowVotes": 107653,
+          "colVotes": 133635,
+          "considered": 241288,
+          "margin": -25982
+        },
+        {
+          "rowCandidateId": 263,
+          "colCandidateId": 215,
+          "rowVotes": 169337,
+          "colVotes": 4152,
+          "considered": 173489,
+          "margin": 165185
+        }
+      ],
+      [
+        {
+          "rowCandidateId": 279,
+          "colCandidateId": 263,
+          "rowVotes": 43385,
+          "colVotes": 143129,
+          "considered": 186514,
+          "margin": -99744
+        },
+        {
+          "rowCandidateId": 279,
+          "colCandidateId": 279,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        },
+        {
+          "rowCandidateId": 279,
+          "colCandidateId": 264,
+          "rowVotes": 60828,
+          "colVotes": 118423,
+          "considered": 179251,
+          "margin": -57595
+        },
+        {
+          "rowCandidateId": 279,
+          "colCandidateId": 265,
+          "rowVotes": 32601,
+          "colVotes": 143327,
+          "considered": 175928,
+          "margin": -110726
+        },
+        {
+          "rowCandidateId": 279,
+          "colCandidateId": 215,
+          "rowVotes": 93269,
+          "colVotes": 4965,
+          "considered": 98234,
+          "margin": 88304
+        }
+      ],
+      [
+        {
+          "rowCandidateId": 264,
+          "colCandidateId": 263,
+          "rowVotes": 78184,
+          "colVotes": 119788,
+          "considered": 197972,
+          "margin": -41604
+        },
+        {
+          "rowCandidateId": 264,
+          "colCandidateId": 279,
+          "rowVotes": 118423,
+          "colVotes": 60828,
+          "considered": 179251,
+          "margin": 57595
+        },
+        {
+          "rowCandidateId": 264,
+          "colCandidateId": 264,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        },
+        {
+          "rowCandidateId": 264,
+          "colCandidateId": 265,
+          "rowVotes": 112671,
+          "colVotes": 137380,
+          "considered": 250051,
+          "margin": -24709
+        },
+        {
+          "rowCandidateId": 264,
+          "colCandidateId": 215,
+          "rowVotes": 149731,
+          "colVotes": 5193,
+          "considered": 154924,
+          "margin": 144538
+        }
+      ],
+      [
+        {
+          "rowCandidateId": 265,
+          "colCandidateId": 263,
+          "rowVotes": 133635,
+          "colVotes": 107653,
+          "considered": 241288,
+          "margin": 25982
+        },
+        {
+          "rowCandidateId": 265,
+          "colCandidateId": 279,
+          "rowVotes": 143327,
+          "colVotes": 32601,
+          "considered": 175928,
+          "margin": 110726
+        },
+        {
+          "rowCandidateId": 265,
+          "colCandidateId": 264,
+          "rowVotes": 137380,
+          "colVotes": 112671,
+          "considered": 250051,
+          "margin": 24709
+        },
+        {
+          "rowCandidateId": 265,
+          "colCandidateId": 265,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        },
+        {
+          "rowCandidateId": 265,
+          "colCandidateId": 215,
+          "rowVotes": 155907,
+          "colVotes": 3877,
+          "considered": 159784,
+          "margin": 152030
+        }
+      ],
+      [
+        {
+          "rowCandidateId": 215,
+          "colCandidateId": 263,
+          "rowVotes": 4152,
+          "colVotes": 169337,
+          "considered": 173489,
+          "margin": -165185
+        },
+        {
+          "rowCandidateId": 215,
+          "colCandidateId": 279,
+          "rowVotes": 4965,
+          "colVotes": 93269,
+          "considered": 98234,
+          "margin": -88304
+        },
+        {
+          "rowCandidateId": 215,
+          "colCandidateId": 264,
+          "rowVotes": 5193,
+          "colVotes": 149731,
+          "considered": 154924,
+          "margin": -144538
+        },
+        {
+          "rowCandidateId": 215,
+          "colCandidateId": 265,
+          "rowVotes": 3877,
+          "colVotes": 155907,
+          "considered": 159784,
+          "margin": -152030
+        },
+        {
+          "rowCandidateId": 215,
+          "colCandidateId": 215,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        }
+      ]
+    ],
+    "condorcetWinnerId": 265
+  },
+  "alternativeWinners": {
+    "pluralityWinnerId": 265,
+    "rcvWinnerId": 265,
+    "condorcetWinnerId": 265,
+    "bordaWinnerId": 265
+  }
+}

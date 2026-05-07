@@ -1,0 +1,589 @@
+{
+  "contest": {
+    "id": 3,
+    "name": "U.S. Senator",
+    "numRanks": 5,
+    "colorSeed": 0
+  },
+  "ballotCount": 264167,
+  "averageRankingDepth": 2.1528881351569273,
+  "candidates": [
+    {
+      "id": 271,
+      "name": "Chesbro, Patricia R.",
+      "type": "Regular",
+      "party": "Registered Democrat",
+      "color": "#4f46e5"
+    },
+    {
+      "id": 272,
+      "name": "Kelley, Buzz A.",
+      "type": "Regular",
+      "party": "Registered Republican",
+      "color": "#0f766e"
+    },
+    {
+      "id": 273,
+      "name": "Murkowski, Lisa",
+      "type": "Regular",
+      "party": "Registered Republican",
+      "color": "#f97316"
+    },
+    {
+      "id": 274,
+      "name": "Tshibaka, Kelly C.",
+      "type": "Regular",
+      "party": "Registered Republican",
+      "color": "#dc2626"
+    },
+    {
+      "id": 246,
+      "name": "Write-in",
+      "type": "WriteIn",
+      "party": "Unknown / write-in",
+      "color": "#7c3aed"
+    }
+  ],
+  "firstChoiceTotals": [
+    {
+      "candidateId": 273,
+      "count": 113952,
+      "name": "Murkowski, Lisa",
+      "color": "#f97316"
+    },
+    {
+      "candidateId": 274,
+      "count": 111917,
+      "name": "Tshibaka, Kelly C.",
+      "color": "#dc2626"
+    },
+    {
+      "candidateId": 271,
+      "count": 27890,
+      "name": "Chesbro, Patricia R.",
+      "color": "#4f46e5"
+    },
+    {
+      "candidateId": 272,
+      "count": 8372,
+      "name": "Kelley, Buzz A.",
+      "color": "#0f766e"
+    },
+    {
+      "candidateId": 246,
+      "count": 2036,
+      "name": "Write-in",
+      "color": "#7c3aed"
+    }
+  ],
+  "rankingDepthDistribution": [
+    {
+      "depth": 1,
+      "count": 93516,
+      "share": 0.3540033387970488
+    },
+    {
+      "depth": 2,
+      "count": 89405,
+      "share": 0.3384412133233901
+    },
+    {
+      "depth": 3,
+      "count": 31651,
+      "share": 0.11981435985569734
+    },
+    {
+      "depth": 4,
+      "count": 46532,
+      "share": 0.17614614997331235
+    },
+    {
+      "depth": 5,
+      "count": 3063,
+      "share": 0.011594938050551356
+    }
+  ],
+  "rcv": {
+    "winnerCandidateId": 273,
+    "rounds": [
+      {
+        "round": 1,
+        "activeBallots": 264167,
+        "exhausted": 0,
+        "winnerCandidateId": null,
+        "eliminatedCandidateId": 246,
+        "tallies": [
+          {
+            "candidateId": 273,
+            "name": "Murkowski, Lisa",
+            "color": "#f97316",
+            "votes": 113952,
+            "eliminated": false
+          },
+          {
+            "candidateId": 274,
+            "name": "Tshibaka, Kelly C.",
+            "color": "#dc2626",
+            "votes": 111917,
+            "eliminated": false
+          },
+          {
+            "candidateId": 271,
+            "name": "Chesbro, Patricia R.",
+            "color": "#4f46e5",
+            "votes": 27890,
+            "eliminated": false
+          },
+          {
+            "candidateId": 272,
+            "name": "Kelley, Buzz A.",
+            "color": "#0f766e",
+            "votes": 8372,
+            "eliminated": false
+          },
+          {
+            "candidateId": 246,
+            "name": "Write-in",
+            "color": "#7c3aed",
+            "votes": 2036,
+            "eliminated": false
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "activeBallots": 263450,
+        "exhausted": 717,
+        "winnerCandidateId": null,
+        "eliminatedCandidateId": 272,
+        "tallies": [
+          {
+            "candidateId": 273,
+            "name": "Murkowski, Lisa",
+            "color": "#f97316",
+            "votes": 114260,
+            "eliminated": false
+          },
+          {
+            "candidateId": 274,
+            "name": "Tshibaka, Kelly C.",
+            "color": "#dc2626",
+            "votes": 112176,
+            "eliminated": false
+          },
+          {
+            "candidateId": 271,
+            "name": "Chesbro, Patricia R.",
+            "color": "#4f46e5",
+            "votes": 28339,
+            "eliminated": false
+          },
+          {
+            "candidateId": 272,
+            "name": "Kelley, Buzz A.",
+            "color": "#0f766e",
+            "votes": 8675,
+            "eliminated": false
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "activeBallots": 260638,
+        "exhausted": 3529,
+        "winnerCandidateId": null,
+        "eliminatedCandidateId": 271,
+        "tallies": [
+          {
+            "candidateId": 273,
+            "name": "Murkowski, Lisa",
+            "color": "#f97316",
+            "votes": 115948,
+            "eliminated": false
+          },
+          {
+            "candidateId": 274,
+            "name": "Tshibaka, Kelly C.",
+            "color": "#dc2626",
+            "votes": 115417,
+            "eliminated": false
+          },
+          {
+            "candidateId": 271,
+            "name": "Chesbro, Patricia R.",
+            "color": "#4f46e5",
+            "votes": 29273,
+            "eliminated": false
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "activeBallots": 254263,
+        "exhausted": 9904,
+        "winnerCandidateId": 273,
+        "eliminatedCandidateId": null,
+        "tallies": [
+          {
+            "candidateId": 273,
+            "name": "Murkowski, Lisa",
+            "color": "#f97316",
+            "votes": 136577,
+            "eliminated": false
+          },
+          {
+            "candidateId": 274,
+            "name": "Tshibaka, Kelly C.",
+            "color": "#dc2626",
+            "votes": 117686,
+            "eliminated": false
+          }
+        ]
+      }
+    ],
+    "transferFlows": [
+      {
+        "fromRound": 1,
+        "toRound": 2,
+        "fromCandidateId": 246,
+        "toCandidateId": "exhausted",
+        "count": 717
+      },
+      {
+        "fromRound": 1,
+        "toRound": 2,
+        "fromCandidateId": 246,
+        "toCandidateId": 271,
+        "count": 449
+      },
+      {
+        "fromRound": 1,
+        "toRound": 2,
+        "fromCandidateId": 246,
+        "toCandidateId": 273,
+        "count": 308
+      },
+      {
+        "fromRound": 1,
+        "toRound": 2,
+        "fromCandidateId": 246,
+        "toCandidateId": 272,
+        "count": 303
+      },
+      {
+        "fromRound": 1,
+        "toRound": 2,
+        "fromCandidateId": 246,
+        "toCandidateId": 274,
+        "count": 259
+      },
+      {
+        "fromRound": 2,
+        "toRound": 3,
+        "fromCandidateId": 272,
+        "toCandidateId": 274,
+        "count": 3241
+      },
+      {
+        "fromRound": 2,
+        "toRound": 3,
+        "fromCandidateId": 272,
+        "toCandidateId": "exhausted",
+        "count": 2812
+      },
+      {
+        "fromRound": 2,
+        "toRound": 3,
+        "fromCandidateId": 272,
+        "toCandidateId": 273,
+        "count": 1688
+      },
+      {
+        "fromRound": 2,
+        "toRound": 3,
+        "fromCandidateId": 272,
+        "toCandidateId": 271,
+        "count": 934
+      },
+      {
+        "fromRound": 3,
+        "toRound": 4,
+        "fromCandidateId": 271,
+        "toCandidateId": 273,
+        "count": 20629
+      },
+      {
+        "fromRound": 3,
+        "toRound": 4,
+        "fromCandidateId": 271,
+        "toCandidateId": "exhausted",
+        "count": 6375
+      },
+      {
+        "fromRound": 3,
+        "toRound": 4,
+        "fromCandidateId": 271,
+        "toCandidateId": 274,
+        "count": 2269
+      }
+    ]
+  },
+  "pairwise": {
+    "candidates": [
+      {
+        "id": 271,
+        "name": "Chesbro, Patricia R.",
+        "type": "Regular",
+        "party": "Registered Democrat",
+        "color": "#4f46e5"
+      },
+      {
+        "id": 272,
+        "name": "Kelley, Buzz A.",
+        "type": "Regular",
+        "party": "Registered Republican",
+        "color": "#0f766e"
+      },
+      {
+        "id": 273,
+        "name": "Murkowski, Lisa",
+        "type": "Regular",
+        "party": "Registered Republican",
+        "color": "#f97316"
+      },
+      {
+        "id": 274,
+        "name": "Tshibaka, Kelly C.",
+        "type": "Regular",
+        "party": "Registered Republican",
+        "color": "#dc2626"
+      },
+      {
+        "id": 246,
+        "name": "Write-in",
+        "type": "WriteIn",
+        "party": "Unknown / write-in",
+        "color": "#7c3aed"
+      }
+    ],
+    "matrix": [
+      [
+        {
+          "rowCandidateId": 271,
+          "colCandidateId": 271,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        },
+        {
+          "rowCandidateId": 271,
+          "colCandidateId": 272,
+          "rowVotes": 92088,
+          "colVotes": 74557,
+          "considered": 166645,
+          "margin": 17531
+        },
+        {
+          "rowCandidateId": 271,
+          "colCandidateId": 273,
+          "rowVotes": 38923,
+          "colVotes": 144361,
+          "considered": 183284,
+          "margin": -105438
+        },
+        {
+          "rowCandidateId": 271,
+          "colCandidateId": 274,
+          "rowVotes": 92770,
+          "colVotes": 129114,
+          "considered": 221884,
+          "margin": -36344
+        },
+        {
+          "rowCandidateId": 271,
+          "colCandidateId": 246,
+          "rowVotes": 115668,
+          "colVotes": 6474,
+          "considered": 122142,
+          "margin": 109194
+        }
+      ],
+      [
+        {
+          "rowCandidateId": 272,
+          "colCandidateId": 271,
+          "rowVotes": 74557,
+          "colVotes": 92088,
+          "considered": 166645,
+          "margin": -17531
+        },
+        {
+          "rowCandidateId": 272,
+          "colCandidateId": 272,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        },
+        {
+          "rowCandidateId": 272,
+          "colCandidateId": 273,
+          "rowVotes": 57938,
+          "colVotes": 148902,
+          "considered": 206840,
+          "margin": -90964
+        },
+        {
+          "rowCandidateId": 272,
+          "colCandidateId": 274,
+          "rowVotes": 45408,
+          "colVotes": 127921,
+          "considered": 173329,
+          "margin": -82513
+        },
+        {
+          "rowCandidateId": 272,
+          "colCandidateId": 246,
+          "rowVotes": 107166,
+          "colVotes": 6252,
+          "considered": 113418,
+          "margin": 100914
+        }
+      ],
+      [
+        {
+          "rowCandidateId": 273,
+          "colCandidateId": 271,
+          "rowVotes": 144361,
+          "colVotes": 38923,
+          "considered": 183284,
+          "margin": 105438
+        },
+        {
+          "rowCandidateId": 273,
+          "colCandidateId": 272,
+          "rowVotes": 148902,
+          "colVotes": 57938,
+          "considered": 206840,
+          "margin": 90964
+        },
+        {
+          "rowCandidateId": 273,
+          "colCandidateId": 273,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        },
+        {
+          "rowCandidateId": 273,
+          "colCandidateId": 274,
+          "rowVotes": 136577,
+          "colVotes": 117686,
+          "considered": 254263,
+          "margin": 18891
+        },
+        {
+          "rowCandidateId": 273,
+          "colCandidateId": 246,
+          "rowVotes": 171514,
+          "colVotes": 5578,
+          "considered": 177092,
+          "margin": 165936
+        }
+      ],
+      [
+        {
+          "rowCandidateId": 274,
+          "colCandidateId": 271,
+          "rowVotes": 129114,
+          "colVotes": 92770,
+          "considered": 221884,
+          "margin": 36344
+        },
+        {
+          "rowCandidateId": 274,
+          "colCandidateId": 272,
+          "rowVotes": 127921,
+          "colVotes": 45408,
+          "considered": 173329,
+          "margin": 82513
+        },
+        {
+          "rowCandidateId": 274,
+          "colCandidateId": 273,
+          "rowVotes": 117686,
+          "colVotes": 136577,
+          "considered": 254263,
+          "margin": -18891
+        },
+        {
+          "rowCandidateId": 274,
+          "colCandidateId": 274,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        },
+        {
+          "rowCandidateId": 274,
+          "colCandidateId": 246,
+          "rowVotes": 155724,
+          "colVotes": 6087,
+          "considered": 161811,
+          "margin": 149637
+        }
+      ],
+      [
+        {
+          "rowCandidateId": 246,
+          "colCandidateId": 271,
+          "rowVotes": 6474,
+          "colVotes": 115668,
+          "considered": 122142,
+          "margin": -109194
+        },
+        {
+          "rowCandidateId": 246,
+          "colCandidateId": 272,
+          "rowVotes": 6252,
+          "colVotes": 107166,
+          "considered": 113418,
+          "margin": -100914
+        },
+        {
+          "rowCandidateId": 246,
+          "colCandidateId": 273,
+          "rowVotes": 5578,
+          "colVotes": 171514,
+          "considered": 177092,
+          "margin": -165936
+        },
+        {
+          "rowCandidateId": 246,
+          "colCandidateId": 274,
+          "rowVotes": 6087,
+          "colVotes": 155724,
+          "considered": 161811,
+          "margin": -149637
+        },
+        {
+          "rowCandidateId": 246,
+          "colCandidateId": 246,
+          "rowVotes": 0,
+          "colVotes": 0,
+          "considered": 0,
+          "margin": 0
+        }
+      ]
+    ],
+    "condorcetWinnerId": 273
+  },
+  "alternativeWinners": {
+    "pluralityWinnerId": 273,
+    "rcvWinnerId": 273,
+    "condorcetWinnerId": 273,
+    "bordaWinnerId": 273
+  }
+}
