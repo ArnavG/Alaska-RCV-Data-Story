@@ -1,119 +1,115 @@
+# Public URL: https://alaska-rcv-datastory.netlify.app/
+
 # Same Ballots, Different Algorithms
 
-Starting prototype for DATA 31500 Assignment 3: an interactive data story / explorable explanation built with Svelte and D3.
+An interactive data story exploring how voting systems shape electoral outcomes, built for DATA 31500 Assignment 3.
+
+---
+
+## Overview
+
+This project is an **explorable explanation** of ranked-choice voting (RCV) and alternative electoral systems, centered on the 2022 Alaska special U.S. House election.
+
+The core idea is simple:
+
+> **The same ballots can produce different winners depending on how they are counted.**
+
+Using real cast vote record (CVR) data and interactive simulations, this project shows how different aggregation rules—RCV, pairwise comparisons, and approval voting—can lead to very different interpretations of voter preferences.
+
+---
 
 ## Concept
 
-This prototype uses the Alaska 2022 special-election ranked-choice cast vote records to explore a simple argument:
+Most discussions of voting systems treat ballots as fixed and outcomes as inevitable.
 
-> the same ranked ballots can produce different summaries depending on which algorithm reads them.
+This project challenges that intuition by showing that:
 
-The app is structured like an interactive article rather than a dashboard. Most of the story copy is intentionally placeholder text so the narrative can be revised later.
+- Voting systems are **algorithms**, not neutral procedures  
+- Different systems prioritize different notions of “support”  
+- The same electorate can produce different winners under different rules  
 
-## What the prototype currently includes
+The Alaska 2022 special election provides a concrete case where:
 
-- A clean article-style Svelte layout.
-- A contest dropdown for switching between statewide ranked contests.
-- A ranking-depth distribution chart.
-- An animated instant-runoff round chart implemented with D3 transitions.
-- A transfer table showing where eliminated ballots move.
-- A pairwise comparison heatmap with hover tooltip.
-- Prototype summary cards for plurality, RCV, Condorcet, and Borda winners.
+- The RCV winner differs from the **Condorcet winner**
+- A broadly acceptable candidate is eliminated early (**center squeeze**)
+- Polarization interacts with electoral rules in non-obvious ways  
+
+---
+
+## What the article includes
+
+### Real election data
+- First-choice vote distributions  
+- Ballot ranking depth  
+- Round-by-round RCV transfers  
+- Precinct-level geographic patterns  
+
+### Social choice analysis
+- Condorcet winner vs RCV winner  
+- Pairwise head-to-head comparisons  
+- Center squeeze dynamics  
+- Connections to Arrow’s impossibility theorem  
+
+### Interactive simulations
+- 1D ideological voter models  
+- Balanced vs polarized electorates  
+- RCV outcomes under different conditions  
+- Approval voting comparison  
+
+### Comparative systems
+- Ranked-choice voting (RCV)
+- Pairwise (Condorcet-style) interpretation
+- Approval voting
+- Discussion of STAR voting as an extension  
+
+---
+
+## Tech stack
+
+- **Svelte** – UI and article structure  
+- **D3.js** – custom interactive visualizations  
+- **Vite** – build tooling  
+- **Netlify** – deployment  
+
+The project is designed as an **interactive article**, not a dashboard, with tightly integrated narrative and visuals.
+
+---
 
 ## Project structure
 
-- `scripts/preprocess-election.js`: local preprocessing pipeline for the raw CVR exports.
-- `src/components`: reusable D3-backed chart components.
-- `src/lib`: loading and formatting helpers.
-- `src/App.svelte`: main interactive article.
-- `public/data`: processed JSON files served by Vite.
-
-## Data pipeline
-
-The raw files in `data/CVR_Export` are too large to use directly in the browser, so the app expects preprocessed static JSON.
-
-The preprocessing script:
-
-1. Reads the contest, candidate, and party manifest files.
-2. Inspects contest names before selecting prototype contests.
-3. Reads all `CvrExport_*.json` files.
-4. Preserves ranked marks with `CandidateId` and `Rank` even when `IsVote` is `false`.
-5. Filters out ambiguous marks.
-6. Builds clean ballot ranking objects.
-7. Derives first-choice totals, ranking-depth distribution, instant-runoff rounds, transfer flows, pairwise matrix data, and alternative winner summaries.
-
-For the current version, the script reads the `CVR_Export_20220908084311` source and preprocesses the ranked contest it contains:
-
-- `U.S. Representative (Special General)`
-
-The preprocessing code still supports either a single `CvrExport.json` file or split `CvrExport_*.json` files, so it can be repointed later if needed.
-
-## Install dependencies
-
-```bash
-cd "/Users/arnavgurudatt/Data Interaction/assignment3"
-npm install
 ```
+scripts/
+preprocess-election.js # Preprocess raw CVR data
 
-## Preprocess the election data
+src/
+components/ # Reusable D3 visual components
+lib/ # Data loading + formatting helpers
+App.svelte # Main interactive article
 
-```bash
-npm run preprocess
+public/
+data/ # Processed JSON data served to frontend
 ```
+---
 
-This writes processed JSON files into `public/data`.
+## Data
 
-## Run locally
+- Source: <a href="https://www.elections.alaska.gov/election-results/e/?id=22sspg">Alaska Division of Elections (2022 Special U.S. House Election)</a>
+- Data type: Cast Vote Records (CVR)
+- Preprocessing:
+  - Cleaning rankings
+  - Constructing pairwise comparisons
+  - Computing RCV rounds
+  - Generating simulation inputs  
 
-```bash
-npm run dev
-```
+---
 
-Then open the local Vite URL in your browser.
+## License
 
-## Build for deployment
+For academic use as part of DATA 31500.  
+Feel free to fork or build on this for educational purposes.
 
-```bash
-npm run build
-```
+---
 
-The production build is written to `dist/`.
+## Author
 
-## Deploy to Netlify
-
-### Option 1: drag-and-drop
-
-1. Run `npm run build`.
-2. Go to [Netlify](https://www.netlify.com/).
-3. Drag the `dist/` folder into the manual deploy area.
-
-### Option 2: connect a repo
-
-1. Push this project to GitHub.
-2. Create a new Netlify site from that repo.
-3. Use these settings:
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-
-## Deploy to Surge
-
-Install Surge globally if you do not already have it:
-
-```bash
-npm install --global surge
-```
-
-Then deploy the built site:
-
-```bash
-npm run build
-surge dist
-```
-
-## Notes for the next revision
-
-- Replace placeholder paragraphs with the final story text.
-- Consider adding a more visual transfer-flow chart.
-- Expand preprocessing to district-level ranked contests if needed.
-- Add annotations tied to specific rounds or pairwise cells.
-- Include the final deployment URL in this README before submission.
+Arnav Gurudatt
