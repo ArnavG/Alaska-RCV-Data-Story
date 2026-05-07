@@ -2,8 +2,19 @@
 <script>
   import { formatNumber, formatPercent } from '../lib/format.js';
   import { getCandidateMeta } from '../lib/candidateMeta.js';
+  import begichIcon from '../../images/colored_icons/begich.png';
+  import palinIcon from '../../images/colored_icons/palin.png';
+  import peltolaIcon from '../../images/colored_icons/peltola.png';
+  import writeinIcon from '../../images/colored_icons/writein.png';
 
   let { patterns = [], candidateLookup = new Map() } = $props();
+
+  const iconMap = {
+    begich: begichIcon,
+    palin: palinIcon,
+    peltola: peltolaIcon,
+    writein: writeinIcon
+  };
 
   function depthLabel(depth) {
     if (depth === 1) return 'For voters who ranked one candidate';
@@ -16,7 +27,8 @@
     const candidate = candidateLookup.get(candidateId);
     return {
       candidate,
-      meta: getCandidateMeta(candidate)
+      meta: getCandidateMeta(candidate),
+      iconSrc: getCandidateMeta(candidate).icon ? iconMap[getCandidateMeta(candidate).icon] : null
     };
   }
 </script>
@@ -34,8 +46,8 @@
           {#each pattern.candidateIds as candidateId, index (candidateId)}
             {@const info = candidateMeta(candidateId)}
             <div class="pattern-candidate" style={`--candidate-tint:${info.meta.colors.tint}; --candidate-dark:${info.meta.colors.dark};`}>
-              {#if info.meta.icon}
-                <img src={`/images/colored_icons/${info.meta.icon}.png`} alt={info.candidate?.name ?? info.meta.displayName} class="pattern-icon" />
+              {#if info.iconSrc}
+                <img src={info.iconSrc} alt={info.candidate?.name ?? info.meta.displayName} class="pattern-icon" />
               {/if}
               <div class="pattern-name">{info.meta.displayName}</div>
               <div class="pattern-rank">Rank {index + 1}</div>
