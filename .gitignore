@@ -1,0 +1,28 @@
+node_modules/
+dist/
+.DS_Store
+
+# Editor / OS noise
+.vscode/
+.idea/
+
+# Vite / Svelte caches
+.svelte-kit/
+.vite/
+.cache/
+.parcel-cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Raw data
+data/
